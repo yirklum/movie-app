@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Quiz</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="">
+
+            <link rel="stylesheet" href="assets/css/reset.css">
+            
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+            <link rel="stylesheet" href="assets/css/style.css">
+        </head>
+        
+        <body>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Logo</a>
+                        
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Links</a></li>
+                    </ul>
+                </div>
+            </nav>
+                                
+            <div class="row">
+                <div class="col s12 offset-s2">
+                    <span class="flow-text">Movie Quiz</span>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="col s12 offset-s2">
+                    <span class="flow-text" id="question">What genre of movie do you want to watch?</span>
+                </div>
+            </div>
+
+            <!-- Question 1 -->
+
+            <div class="answer-block" id="q1">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block1">Comedy</button>
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block2">Drama</button>
+                </div>
+                
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block3">Action</button>  
+                </div>
+    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block4">Suspense</button>
+                </div>
+
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block5">Horror</button>
+                </div>
+        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block6">Foreign</button>
+                </div>
+
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block7">Children</button>
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="block8">Other</button>
+                </div>
+            </div> 
+
+            <!-- Comedy Question 2 -->
+            
+            <div class="answer-block" id="comedyq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="comedyBlock1">Pre-1960</button>
+                </div>
+                
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="comedyBlock2">1960-1989</button>
+                </div>
+                    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="comedyBlock3">1990-2010</button>  
+                </div>
+        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="comedyBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Drama Question 2 -->
+
+            <div class="answer-block" id="dramaq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="dramaBlock1">Pre-1960</button>
+                </div>
+                    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="dramaBlock2">1960-1989</button>
+                </div>
+                    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="dramaBlock3">1990-2010</button>  
+                </div>
+        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="dramaBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Action Question 2 -->
+
+            <div class="answer-block" id="actionq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="actionBlock1">Pre-1960</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="actionBlock2">1960-1989</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="actionBlock3">1990-2010</button>  
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="actionBlock4">2011-2018</button>
+                </div>
+            </div>
+            
+            <!-- Suspense Question 2 -->
+
+            <div class="answer-block" id="suspenseq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="suspenseBlock1">Pre-1960</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="suspenseBlock2">1960-1989</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="suspenseBlock3">1990-2010</button>  
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="suspenseBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Horror Question 2 -->
+
+            <div class="answer-block" id="horrorq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="horrorBlock1">Pre-1960</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="horrorBlock2">1960-1989</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="horrorBlock3">1990-2010</button>  
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="horrorBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Foreign Question 2 -->
+
+            <div class="answer-block" id="foreignq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="foreignBlock1">Pre-1960</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="foreignBlock2">1960-1989</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="foreignBlock3">1990-2010</button>  
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="foreignBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Children Question 2 -->
+
+            <div class="answer-block" id="childrenq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="childrenBlock1">Pre-1960</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="childrenBlock2">1960-1989</button>
+                </div>
+                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="childrenBlock3">1990-2010</button>  
+                </div>
+            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="childrenBlock4">2011-2018</button>
+                </div>
+            </div>
+
+
+            <!-- Other Question 2 -->
+
+            <div class="answer-block" id="otherq2">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="otherBlock1">Pre-1960</button>
+                </div>
+                            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="otherBlock2">1960-1989</button>
+                </div>
+                            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="otherBlock3">1990-2010</button>  
+                </div>
+                
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="otherBlock4">2011-2018</button>
+                </div>
+            </div>
+
+            <!-- Comedy Question 3 -->
+
+            <div class="answer-block" id="comedyPre1960q3">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="pre1960Block1">Light Comedy</button>
+                </div>
+                                
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="pre1960Block2">Dark Comedy</button>
+                </div>
+                                
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="pre1960Block3">Romantic Comedy</button>  
+                </div>
+            </div>
+
+            <div class="answer-block" id="comedy1960q3">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1960Block1">Light Comedy</button>
+                </div>
+                                    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1960Block2">Dark Comedy</button>
+                </div>
+                                    
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1960Block3">Romantic Comedy</button>  
+                </div>
+            </div>
+
+            <div class="answer-block" id="comedy1990q3">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1990Block1">Light Comedy</button>
+                </div>
+                                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1990Block2">Dark Comedy</button>
+                </div>
+                                        
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="1990Block3">Romantic Comedy</button>  
+                </div>
+            </div>
+
+            <div class="answer-block" id="comedy2011q3">
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="2011Block1">Light Comedy</button>
+                </div>
+                                            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="2011Block2">Dark Comedy</button>
+                </div>
+                                            
+                <div class="choice">
+                    <button class="waves-effect waves-light btn-large" id="2011Block3">Romantic Comedy</button>  
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+            <script src="assets/javascript/quiz.js" defer></script>
+        </body>
+    </html>

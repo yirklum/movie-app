@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/filmstrip.jpeg");
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto
+}
+
+#play {
+    height: 100px;
+}
+
+.start {
+    background-color: black;
+    padding: 5px;
+}
+
+nav {
+    width: 78%;
+    margin-left: 11%;
+    background-color: black;
+    height: 100px;
+}
+
+.brand-logo {
+    font-size: 36px;
+}
+
+h1 {
+    margin-left: 25%;
+}
+
+.choice {
+    display: inline-block;
+    padding: 15px;
+}
+
+.answer-block {
+    margin-left: 20%;
+    width: 70%;
+}
+
+.btn-large {
+
+}
+
+#comedyq2, #dramaq2, #actionq2, #suspenseq2, #horrorq2, #foreignq2, #childrenq2, #otherq2, 
+#comedyPre1960q3, #comedy1960q3, #comedy1990q3, #comedy2011q3 {
+    display: none;
+}

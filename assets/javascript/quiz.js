@@ -516,28 +516,28 @@ document.getElementById("s2011Block3").onclick = function() {
 // Horror Path
 // Change from second to third question
 
-document.getElementById("comedyBlock1").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedyPre1960q3").style.display = "block";
+document.getElementById("horrorBlock1").onclick = function() {
+    document.getElementById("horrorq2").style.display = "none";
+    document.getElementById("horrorPre1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock2").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1960q3").style.display = "block";
+document.getElementById("horrorBlock2").onclick = function() {
+    document.getElementById("horrorq2").style.display = "none";
+    document.getElementById("horror1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock3").onclick = function() {
+document.getElementById("horrorBlock3").onclick = function() {
     
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1990q3").style.display = "block";
+    document.getElementById("horrorq2").style.display = "none";
+    document.getElementById("horror1990q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock4").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy2011q3").style.display = "block";
+document.getElementById("horrorBlock4").onclick = function() {
+    document.getElementById("horrorq2").style.display = "none";
+    document.getElementById("horror2011q3").style.display = "block";
     changeToQuestion3();
 };
 
@@ -545,81 +545,81 @@ document.getElementById("comedyBlock4").onclick = function() {
 
 // Pre-1960
 
-document.getElementById("cpre1960Block1").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960lcq4").style.display = "block";
+document.getElementById("hpre1960Block1").onclick = function() {
+    document.getElementById("horrorPre1960q3").style.display = "none";
+    document.getElementById("horrorPre1960phq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block2").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960dcq4").style.display = "block";
+document.getElementById("hpre1960Block2").onclick = function() {
+    document.getElementById("horrorPre1960q3").style.display = "none";
+    document.getElementById("horrorPre1960mmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block3").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960rcq4").style.display = "block";
+document.getElementById("hpre1960Block3").onclick = function() {
+    document.getElementById("horrorPre1960q3").style.display = "none";
+    document.getElementById("horrorPre1960sfq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1960-1989
 
-document.getElementById("c1960Block1").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960lcq4").style.display = "block";
+document.getElementById("h1960Block1").onclick = function() {
+    document.getElementById("horror1960q3").style.display = "none";
+    document.getElementById("horror1960phq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block2").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960dcq4").style.display = "block";
+document.getElementById("h1960Block2").onclick = function() {
+    document.getElementById("horror1960q3").style.display = "none";
+    document.getElementById("horror1960mmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block3").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960rcq4").style.display = "block";
+document.getElementById("h1960Block3").onclick = function() {
+    document.getElementById("horror1960q3").style.display = "none";
+    document.getElementById("horror1960sfq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1990-2010
 
-document.getElementById("c1990Block1").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990lcq4").style.display = "block";
+document.getElementById("h1990Block1").onclick = function() {
+    document.getElementById("horror1990q3").style.display = "none";
+    document.getElementById("horror1990phq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block2").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990dcq4").style.display = "block";
+document.getElementById("h1990Block2").onclick = function() {
+    document.getElementById("horror1990q3").style.display = "none";
+    document.getElementById("horror1990mmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block3").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990rcq4").style.display = "block";
+document.getElementById("h1990Block3").onclick = function() {
+    document.getElementById("horror1990q3").style.display = "none";
+    document.getElementById("horror1990sfq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 2011-2018
 
-document.getElementById("c2011Block1").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011lcq4").style.display = "block";
+document.getElementById("h2011Block1").onclick = function() {
+    document.getElementById("horror2011q3").style.display = "none";
+    document.getElementById("horror2011phq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block2").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011dcq4").style.display = "block";
+document.getElementById("h2011Block2").onclick = function() {
+    document.getElementById("horror2011q3").style.display = "none";
+    document.getElementById("horror2011dcq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block3").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011rcq4").style.display = "block";
+document.getElementById("h2011Block3").onclick = function() {
+    document.getElementById("horror2011q3").style.display = "none";
+    document.getElementById("horror2011sfq4").style.display = "block";
     changeToQuestion4();
 };
 
@@ -627,28 +627,28 @@ document.getElementById("c2011Block3").onclick = function() {
 // Foreign Path
 // Change from second to third question
 
-document.getElementById("comedyBlock1").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedyPre1960q3").style.display = "block";
+document.getElementById("foreignBlock1").onclick = function() {
+    document.getElementById("foreignq2").style.display = "none";
+    document.getElementById("foreignPre1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock2").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1960q3").style.display = "block";
+document.getElementById("foreignBlock2").onclick = function() {
+    document.getElementById("foreignq2").style.display = "none";
+    document.getElementById("foreign1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock3").onclick = function() {
+document.getElementById("foreignBlock3").onclick = function() {
     
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1990q3").style.display = "block";
+    document.getElementById("foreignq2").style.display = "none";
+    document.getElementById("foreign1990q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock4").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy2011q3").style.display = "block";
+document.getElementById("foreignBlock4").onclick = function() {
+    document.getElementById("foreignq2").style.display = "none";
+    document.getElementById("foreign2011q3").style.display = "block";
     changeToQuestion3();
 };
 
@@ -656,81 +656,81 @@ document.getElementById("comedyBlock4").onclick = function() {
 
 // Pre-1960
 
-document.getElementById("cpre1960Block1").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960lcq4").style.display = "block";
+document.getElementById("fpre1960Block1").onclick = function() {
+    document.getElementById("foreignPre1960q3").style.display = "none";
+    document.getElementById("foreignPre1960fcq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block2").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960dcq4").style.display = "block";
+document.getElementById("fpre1960Block2").onclick = function() {
+    document.getElementById("foreignPre1960q3").style.display = "none";
+    document.getElementById("foreignPre1960fdq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block3").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960rcq4").style.display = "block";
+document.getElementById("fpre1960Block3").onclick = function() {
+    document.getElementById("foreignPre1960q3").style.display = "none";
+    document.getElementById("foreignPre1960faq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1960-1989
 
-document.getElementById("c1960Block1").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960lcq4").style.display = "block";
+document.getElementById("f1960Block1").onclick = function() {
+    document.getElementById("foreign1960q3").style.display = "none";
+    document.getElementById("foreign1960fcq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block2").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960dcq4").style.display = "block";
+document.getElementById("f1960Block2").onclick = function() {
+    document.getElementById("foreign1960q3").style.display = "none";
+    document.getElementById("foreign1960fdq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block3").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960rcq4").style.display = "block";
+document.getElementById("f1960Block3").onclick = function() {
+    document.getElementById("foreign1960q3").style.display = "none";
+    document.getElementById("foreign1960faq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1990-2010
 
-document.getElementById("c1990Block1").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990lcq4").style.display = "block";
+document.getElementById("f1990Block1").onclick = function() {
+    document.getElementById("foreign1990q3").style.display = "none";
+    document.getElementById("foreign1990fcq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block2").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990dcq4").style.display = "block";
+document.getElementById("f1990Block2").onclick = function() {
+    document.getElementById("foreign1990q3").style.display = "none";
+    document.getElementById("foreign1990fdq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block3").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990rcq4").style.display = "block";
+document.getElementById("f1990Block3").onclick = function() {
+    document.getElementById("foreign1990q3").style.display = "none";
+    document.getElementById("foreign1990faq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 2011-2018
 
-document.getElementById("c2011Block1").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011lcq4").style.display = "block";
+document.getElementById("f2011Block1").onclick = function() {
+    document.getElementById("foreign2011q3").style.display = "none";
+    document.getElementById("foreign2011fcq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block2").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011dcq4").style.display = "block";
+document.getElementById("f2011Block2").onclick = function() {
+    document.getElementById("foreign2011q3").style.display = "none";
+    document.getElementById("foreign2011fdq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block3").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011rcq4").style.display = "block";
+document.getElementById("f2011Block3").onclick = function() {
+    document.getElementById("foreign2011q3").style.display = "none";
+    document.getElementById("foreign2011faq4").style.display = "block";
     changeToQuestion4();
 };
 
@@ -738,28 +738,28 @@ document.getElementById("c2011Block3").onclick = function() {
 // Children Path
 // Change from second to third question
 
-document.getElementById("comedyBlock1").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedyPre1960q3").style.display = "block";
+document.getElementById("childrenBlock1").onclick = function() {
+    document.getElementById("childrenq2").style.display = "none";
+    document.getElementById("childrenPre1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock2").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1960q3").style.display = "block";
+document.getElementById("childrenBlock2").onclick = function() {
+    document.getElementById("childrenq2").style.display = "none";
+    document.getElementById("children1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock3").onclick = function() {
+document.getElementById("childrenBlock3").onclick = function() {
     
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1990q3").style.display = "block";
+    document.getElementById("childrenq2").style.display = "none";
+    document.getElementById("children1990q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock4").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy2011q3").style.display = "block";
+document.getElementById("childrenBlock4").onclick = function() {
+    document.getElementById("childrenq2").style.display = "none";
+    document.getElementById("children2011q3").style.display = "block";
     changeToQuestion3();
 };
 
@@ -767,81 +767,81 @@ document.getElementById("comedyBlock4").onclick = function() {
 
 // Pre-1960
 
-document.getElementById("cpre1960Block1").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960lcq4").style.display = "block";
+document.getElementById("chpre1960Block1").onclick = function() {
+    document.getElementById("childrenPre1960q3").style.display = "none";
+    document.getElementById("childrenPre1960anq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block2").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960dcq4").style.display = "block";
+document.getElementById("chpre1960Block2").onclick = function() {
+    document.getElementById("childrenPre1960q3").style.display = "none";
+    document.getElementById("childrenPre1960laq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block3").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960rcq4").style.display = "block";
+document.getElementById("chpre1960Block3").onclick = function() {
+    document.getElementById("childrenPre1960q3").style.display = "none";
+    document.getElementById("childrenPre1960edq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1960-1989
 
-document.getElementById("c1960Block1").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960lcq4").style.display = "block";
+document.getElementById("ch1960Block1").onclick = function() {
+    document.getElementById("children1960q3").style.display = "none";
+    document.getElementById("children1960anq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block2").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960dcq4").style.display = "block";
+document.getElementById("ch1960Block2").onclick = function() {
+    document.getElementById("children1960q3").style.display = "none";
+    document.getElementById("children1960laq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block3").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960rcq4").style.display = "block";
+document.getElementById("ch1960Block3").onclick = function() {
+    document.getElementById("children1960q3").style.display = "none";
+    document.getElementById("children1960edq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1990-2010
 
-document.getElementById("c1990Block1").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990lcq4").style.display = "block";
+document.getElementById("ch1990Block1").onclick = function() {
+    document.getElementById("children1990q3").style.display = "none";
+    document.getElementById("children1990anq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block2").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990dcq4").style.display = "block";
+document.getElementById("ch1990Block2").onclick = function() {
+    document.getElementById("children1990q3").style.display = "none";
+    document.getElementById("children1990laq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block3").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990rcq4").style.display = "block";
+document.getElementById("ch1990Block3").onclick = function() {
+    document.getElementById("children1990q3").style.display = "none";
+    document.getElementById("children1990edq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 2011-2018
 
-document.getElementById("c2011Block1").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011lcq4").style.display = "block";
+document.getElementById("ch2011Block1").onclick = function() {
+    document.getElementById("children2011q3").style.display = "none";
+    document.getElementById("children2011anq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block2").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011dcq4").style.display = "block";
+document.getElementById("ch2011Block2").onclick = function() {
+    document.getElementById("children2011q3").style.display = "none";
+    document.getElementById("children2011laq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block3").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011rcq4").style.display = "block";
+document.getElementById("ch2011Block3").onclick = function() {
+    document.getElementById("children2011q3").style.display = "none";
+    document.getElementById("children2011edq4").style.display = "block";
     changeToQuestion4();
 };
 
@@ -849,28 +849,28 @@ document.getElementById("c2011Block3").onclick = function() {
 // Other Path
 // Change from second to third question
 
-document.getElementById("comedyBlock1").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedyPre1960q3").style.display = "block";
+document.getElementById("otherBlock1").onclick = function() {
+    document.getElementById("otherq2").style.display = "none";
+    document.getElementById("otherPre1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock2").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1960q3").style.display = "block";
+document.getElementById("otherBlock2").onclick = function() {
+    document.getElementById("otherq2").style.display = "none";
+    document.getElementById("other1960q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock3").onclick = function() {
+document.getElementById("otherBlock3").onclick = function() {
     
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy1990q3").style.display = "block";
+    document.getElementById("otherq2").style.display = "none";
+    document.getElementById("other1990q3").style.display = "block";
     changeToQuestion3();
 };
 
-document.getElementById("comedyBlock4").onclick = function() {
-    document.getElementById("comedyq2").style.display = "none";
-    document.getElementById("comedy2011q3").style.display = "block";
+document.getElementById("otherBlock4").onclick = function() {
+    document.getElementById("otherq2").style.display = "none";
+    document.getElementById("other2011q3").style.display = "block";
     changeToQuestion3();
 };
 
@@ -878,80 +878,80 @@ document.getElementById("comedyBlock4").onclick = function() {
 
 // Pre-1960
 
-document.getElementById("cpre1960Block1").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960lcq4").style.display = "block";
+document.getElementById("opre1960Block1").onclick = function() {
+    document.getElementById("otherPre1960q3").style.display = "none";
+    document.getElementById("otherPre1960hmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block2").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960dcq4").style.display = "block";
+document.getElementById("opre1960Block2").onclick = function() {
+    document.getElementById("otherPre1960q3").style.display = "none";
+    document.getElementById("otherPre1960doq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("cpre1960Block3").onclick = function() {
-    document.getElementById("comedyPre1960q3").style.display = "none";
-    document.getElementById("comedyPre1960rcq4").style.display = "block";
+document.getElementById("opre1960Block3").onclick = function() {
+    document.getElementById("otherPre1960q3").style.display = "none";
+    document.getElementById("otherPre1960miq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1960-1989
 
-document.getElementById("c1960Block1").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960lcq4").style.display = "block";
+document.getElementById("o1960Block1").onclick = function() {
+    document.getElementById("other1960q3").style.display = "none";
+    document.getElementById("other1960hmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block2").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960dcq4").style.display = "block";
+document.getElementById("o1960Block2").onclick = function() {
+    document.getElementById("other1960q3").style.display = "none";
+    document.getElementById("other1960doq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1960Block3").onclick = function() {
-    document.getElementById("comedy1960q3").style.display = "none";
-    document.getElementById("comedy1960rcq4").style.display = "block";
+document.getElementById("o1960Block3").onclick = function() {
+    document.getElementById("other1960q3").style.display = "none";
+    document.getElementById("other1960miq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 1990-2010
 
-document.getElementById("c1990Block1").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990lcq4").style.display = "block";
+document.getElementById("o1990Block1").onclick = function() {
+    document.getElementById("other1990q3").style.display = "none";
+    document.getElementById("other1990hmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block2").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990dcq4").style.display = "block";
+document.getElementById("o1990Block2").onclick = function() {
+    document.getElementById("other1990q3").style.display = "none";
+    document.getElementById("other1990doq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c1990Block3").onclick = function() {
-    document.getElementById("comedy1990q3").style.display = "none";
-    document.getElementById("comedy1990rcq4").style.display = "block";
+document.getElementById("o1990Block3").onclick = function() {
+    document.getElementById("other1990q3").style.display = "none";
+    document.getElementById("other1990miq4").style.display = "block";
     changeToQuestion4();
 };
 
 // 2011-2018
 
-document.getElementById("c2011Block1").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011lcq4").style.display = "block";
+document.getElementById("o2011Block1").onclick = function() {
+    document.getElementById("other2011q3").style.display = "none";
+    document.getElementById("other2011hmq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block2").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011dcq4").style.display = "block";
+document.getElementById("o2011Block2").onclick = function() {
+    document.getElementById("other2011q3").style.display = "none";
+    document.getElementById("other2011doq4").style.display = "block";
     changeToQuestion4();
 };
 
-document.getElementById("c2011Block3").onclick = function() {
-    document.getElementById("comedy2011q3").style.display = "none";
-    document.getElementById("comedy2011rcq4").style.display = "block";
+document.getElementById("o2011Block3").onclick = function() {
+    document.getElementById("other2011q3").style.display = "none";
+    document.getElementById("other2011miq4").style.display = "block";
     changeToQuestion4();
 };

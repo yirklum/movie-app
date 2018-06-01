@@ -2,16 +2,28 @@ body {
     background-image: url("../images/filmstrip.jpeg");
     background-size: cover;
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.container {
+    width: 73%;
+    margin: 55px 15px 25px 25px;
+    color: yellow;
+    font-size: 32px;
+
 }
 
 #play {
-    height: 100px;
+    height: 150px;
 }
 
 .start {
     background-color: black;
     padding: 5px;
+    margin-left: 17%;
+    margin-top: 25px;
+    margin-bottom: 100px;
 }
 
 nav {
@@ -21,8 +33,26 @@ nav {
     height: 100px;
 }
 
-.brand-logo {
-    font-size: 36px;
+.logo {
+    font-size: 46px;
+    margin-left: 15px;
+}
+
+#nav-mobile li a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 68px;
+    margin-left: 25%;
+    padding-top: 25px;
+    font-family: 'Monoton';
+}
+
+.flow-text {
+    width: 75%;
+    color: white;
 }
 
 h1 {
@@ -35,12 +65,12 @@ h1 {
 }
 
 .answer-block {
-    margin-left: 20%;
-    width: 70%;
+    margin-left: 25%;
+    margin-top: 50px;
 }
 
-.btn-large {
-
+.box {
+    margin-top: 25px;
 }
 
 #comedyq2, #dramaq2, #actionq2, #suspenseq2, #horrorq2, #foreignq2, #childrenq2, #otherq2, 
@@ -66,4 +96,14 @@ h1 {
 .results img {
     width: 25%;
     margin-left: 25%;
+}
+
+.tint {
+    color: yellow
+}
+
+.quiz-container {
+    width: 73%;
+    margin: 55px 15px 25px 25px;
+    font-size: 32px;
 }

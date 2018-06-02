@@ -862,7 +862,6 @@ document.getElementById("otherBlock2").onclick = function() {
 };
 
 document.getElementById("otherBlock3").onclick = function() {
-    
     document.getElementById("otherq2").style.display = "none";
     document.getElementById("other1990q3").style.display = "block";
     changeToQuestion3();
